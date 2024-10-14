@@ -1,0 +1,9 @@
+A. Create an automation UiPath Project using decision statements. If-else
+Activity
+Step 1: Create a blank project and give it a name.
+Step 2: Drag and drop the Flowchart activity and give it a name. Step 3: Create a variable name for storing user input.
+Step 4: Drag and drop input dialog box.
+Step 5: Drag and drop if activity and give the condition.
+Step 6: Drag and drop message box inside if activity for displaying the output.
+Step 7: Run.
+formula is mod 2=0

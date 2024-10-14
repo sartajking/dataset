@@ -1,0 +1,27 @@
+A.	Implement the attach window activity.
+Step 1. Create a blank project and give it a meaningful name.
+Step 2: Drag and drop a Sequence activity on the Designer panel. Also, drag and drop a Click activity
+inside the Designer panel. 
+Step 3 : Open a notepad
+Step 4: Double-click on the Click activity and then click on Indicate on screen. Locate the Notepad icon.
+Step 5: Drag and drop the Attach Window activity on the main Designer panel.
+Step 6: Double-click on the Attach Window activity. Click on Click Window on Screen and indicate the Notepad window
+i.	Mouse (click, double click and hover)
+1.	Click Activity
+Step 1: Go to uipath studio
+Step 2: Click on Workflow and Drag Flow Chart from Activities panal. 
+Step 3: Double Click on FlowChart.
+Step 4 :Drag and drop the Click activity 
+Step 5: Double click on click activity.
+Step 6: Click on indicate on screen and indicate the UI element you want to click on. 
+Step 7:Now click on run.
+2.	Double Click Activity
+Step 1: Go to uipath studio
+Step 2: Click on Workflow and Drag Flow Chart from Activities panal. 
+Step 3: Double Click on FlowChart.
+Step 4 : Drag and drop the Double Click activity 
+Step 5: Double click on double click activity.
+Step 6: Click on indicate on screen and indicate the UI element you want to click on.
+Step 7: Now click on run.
+
+

@@ -1,0 +1,18 @@
+practical 1 
+ A) create a simple sequence diagram
+Print message hello
+Step 1: Open a UiPath studio.
+Step 2: Select blank process and give a name to create a project.
+Step 3: Click on open main workflow.
+Step 4: In activity panel search sequence and select sequence and drop in main workflow.
+Step 5: Now search for message box and select message box and drop in main workflow
+step 6 in messeage box type hello world
+step 7 run 
+B) CREATE A FLOWCHART BASED PROJECT 
+Step 1: Open UiPath studio and click on process give name to your project.
+Step 2: Click on Open main workflow. Drag and drop flowchart from activities panel.
+ step 3 Drag and drop input dailog box inside a flowchart.
+Step 4: Create a variable “clgname” and give your input label
+Step 5: : Drag and drop a message box below input dialog box and enter your message inside
+message box.
+Step 6: Click on debug file and select run file

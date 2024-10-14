@@ -1,0 +1,77 @@
+A. Automate UiPath Number Calculation (Addition, Subtraction, Multiplication, Division of numbers).
+Step 1: Open UiPath studio select process and give name to your project and click on create. 
+Step 2: Click on open main workflow
+Step 3: go to activities and select sequence drag and drop. 
+Step 4: Create 4 integer variable.
+Step 5: Select 2 input dialogs from the activities drag and drop. Enter the values in dialog box.
+Step 6 : Select another dialog box for selecting options
+B. Create an automation UiPath project using different types of variables (number, datetime, Boolean, generic, array, data table)
+Number:
+Step 1: Create a blank project and give it a meaningful name.
+ Step 2: Drag and drop the Sequence activity and give it a name.
+Step 3: Create two variables named variable1 and variable2 of int32. 
+Step 4: Create another variable named Result of int32.
+Step 5: Select the Assign activity and assign the variable1 as “5”. 
+Step 6: Select the Assign activity and assign the variable2 as “10”.
+Step 7: Select the Assign activity and assign the Result as “variable1+variable2”.
+ Step 8: Select the Write Line activity and print the Result value. Step
+9: Run
+DateTime:
+Step 1: Create a blank project and give it a meaningful name. 
+Step 2: Drag and drop the Sequence activity and give it a name. 
+Step 3: Create a variables named Date1 of String.
+Step 4: Select Assign activity and assign “Now.ToString” to the variable Date1. 
+Step 5: Select Write Line activity and Print the above.
+Step 6: Select Assign activity and assign “Now.ToShortDateString” to the variable Date1.
+Step 7: Select Write Line activity and Print the above.
+Step 8: Select Assign activity and assign “Now.ToShortTimeString” to the variable Date1. 
+Step 9: Select Write Line activity and Print the above.
+Step 10: Run.
+Boolean:
+Step 1: Create a blank project and give it a meaningful name. 
+Step 2: Drag and drop the Sequence activity and give it a name. 
+Step 3: Create a variables named Boolean1 of Boolean.
+Step 4: Select Assign activity and assign “1<2” to the variable Boolean1. 
+Step 5: Select Write Line activity and Print the above.
+Step 6: Run.
+Generic:
+Step 1: Create a blank project and give it a meaningful name. 
+Step 2: Drag and drop the Sequence activity and give it a name. 
+Step 3: Create a variables named Generic1 of GenericValue.
+Step 4: Select Assign activity and assign “1” to the variable Generic1. 
+Step 5: Select Write Line activity and Print the above.
+Step 6: Select Assign activity and assign “Robotic Process Automation” to the variable Generic1.
+Step 7: Select Write Line activity and Print the above.
+Step 8: Select Assign activity and assign “Now” to the variable Generic1. 
+Step 9: Select Write Line activity and Print the above.
+Step 10: Run
+DataTable:
+Step 1: Create a blank project and give it a meaningful name. 
+Step 2: Drag and drop the Flowchart activity and give it a name. 
+Step 3: Drag and drop the Sequence activity and give it a name. 
+Step 4: Create a variable named DataTable1 of DataTable.
+Step 5: Select Build Data Table activity and create a DataTable.
+Step 6: Set output value as “DataTable1”.
+Step 7: Select Output Data Table and set the input value as “DataTable1”.
+Step 8: Set a variable “OutputDataTable1” for output value. You can use ctrl+k to create a variable.
+Step 9: Select a Message Box and set the value as “OutputDataTable1”. 
+Step 10: Run.
+Array:
+Step 1: Create a blank project and give it a meaningful name. 
+Step 2: Drag and drop the Flowchart activity and give it a name. 
+Step 3: Drag and drop the Sequence activity and give it a name. 
+Step 4: Create a variable named array of int32.
+Step 5: Select the Assgin activity and assign the value {1,2,3,4,5} to the variable named array.
+ Step 6: Select the For Each activity.
+Step 7: Set values as “For Each item in array”.
+Step 8: Inside the body of For Each select the Write Line activity and enter text “item.toString”.
+Step 9: Run
+
+
+
+
+
+
+
+
+

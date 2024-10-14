@@ -1,0 +1,32 @@
+A. Create an application automating the read, write and append operation on excel file.
+I)	Read cell:
+Step 1 : Drag and drop a flowchart activity. Step 2: Drag and drop read range activity.
+Step 3: Specify the path of excel sheet, sheet name as well as the range of cells to read
+Values in Excel:as per our choice
+Step 7: Drag and drop Output Data table activity
+Step 8: Select the Activity Output Data Table and set its input to “mydatatable” and output to “readdata”
+Step 9: Select Message Box activity and configure it to display the “readdata” variable contents.
+Step 10: Run.
+II)	Write cell:
+Step 1 : Drag and drop a flowchart activity.
+Step 2: Select activity “Build Data Table” and enter some data into it
+Step 3: Create a data table variable MyDataTable MyDataTable of DataTable type 
+Step 4: Set the output of Build Data Table activity to MyDataTable.
+Step 5: Select Excel Application Scope .Specify the path of the excel sheet 
+Step 6: Select Write Range Activity(Excel).
+Step 7: Specify the sheet name and range of cells to write
+Step 8: Set the data table value to MyDataTable
+III)	Append cell:
+Step 1 : Drag and drop a flowchart activity.
+Step 2: Select activity “Build Data Table” and enter some data into it
+Step 3: Create a data table variable MyDataTable MyDataTable of DataTable type 
+Step 4: Set the output of Build Data Table activity to MyDataTable
+Step 5: Select Excel Application Scope .Specify the path of the excel sheet 
+Step 6: Select Append Range Activity(Excel).
+Step 7: Specify the sheet name and range of cells to write 
+Step 8: Set the data table value to MyDataTable
+Step 9: Run.
+
+
+
+

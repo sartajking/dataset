@@ -1,0 +1,14 @@
+A. Consider an array of names. We have to find out how many of them start with the letter "a".
+Create an automation where the number of names starting with "a" is counted and the result is displayed.
+Step 1: Open uipath studio and give name to your project.
+Step 2: Click on open main workflow. click on new and select sequence. 
+Step 3 : Select a flowchart and drag and drop multiple assign activity in it.
+Step 4: Create 2 variables. One for storing the array of names and other for counting the number of names in array.
+Step 5: Drag and drop for each activity
+Step 6: Inside the body section of for each activity, drag and drop if activity and give the condition for
+counting the number of occurrence of character ‘a’
+in for each item in name 
+in if activity condition item.tostring.startwith("a")
+in the int_count=int_count+1
+Step 7: Drag and drop a message box below for each activity. Enter the value to be displayed in the message box.
+
